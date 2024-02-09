@@ -1,30 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "c",
+      "identity" : "appstate",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/0xOpenBytes/c",
+      "location" : "https://github.com/0xLeif/AppState",
       "state" : {
-        "revision" : "876899c63377f407a27316ce24eb7bc37653cb13",
-        "version" : "4.0.0"
+        "revision" : "ce10e98250876155ba604eced460899c6e711d24",
+        "version" : "1.11.0"
       }
     },
     {
       "identity" : "cache",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/0xOpenBytes/Cache.git",
+      "location" : "https://github.com/0xLeif/Cache",
       "state" : {
-        "revision" : "356c1005b3b4b220fd83700450a7faf1c55d752e",
-        "version" : "0.1.0"
-      }
-    },
-    {
-      "identity" : "disk",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/0xOpenBytes/Disk",
-      "state" : {
-        "revision" : "7804456d7e02221ac21c755c22c735fc0dd43f81",
-        "version" : "0.1.0"
+        "revision" : "a535c68aab7bf0b42bda7a5de66b04f86e48c6e6",
+        "version" : "2.1.0"
       }
     },
     {
@@ -32,17 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/0xLeif/Fork",
       "state" : {
-        "revision" : "7682617694979adcf1f8b08d1507c865cad81ae4",
-        "version" : "1.2.0"
-      }
-    },
-    {
-      "identity" : "o",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/0xOpenBytes/o",
-      "state" : {
-        "revision" : "2c8dc280528428f684f250f88dbc513f4c65504e",
-        "version" : "2.1.1"
+        "revision" : "58c39d96cbf69cbbe9a5ea881936476fb8e8384c",
+        "version" : "1.3.0"
       }
     },
     {
@@ -68,17 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log",
       "state" : {
-        "revision" : "32e8d724467f8fe623624570367e3d50c5638e46",
-        "version" : "1.5.2"
-      }
-    },
-    {
-      "identity" : "t",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/0xOpenBytes/t",
-      "state" : {
-        "revision" : "c111675ac4d84af23d2d9b65bffaf1829c376986",
-        "version" : "1.0.4"
+        "revision" : "e97a6fcb1ab07462881ac165fdbb37f067e205d5",
+        "version" : "1.5.4"
       }
     },
     {
@@ -86,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/0xOpenBytes/TaskManager",
       "state" : {
-        "revision" : "27ce9021d82006d2ad8db78d5e602c5bba80ca1b",
-        "version" : "0.1.0"
+        "revision" : "072fc94c46b0f69ae93407ecc65090f9d33c5031",
+        "version" : "1.0.1"
       }
     }
   ],

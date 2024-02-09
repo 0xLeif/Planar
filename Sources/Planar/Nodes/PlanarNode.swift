@@ -1,4 +1,4 @@
-import c
+import Cache
 import Plugin
 import SpriteKit
 
@@ -80,12 +80,12 @@ extension PlanarNode {
     ///
     /// - Parameter type: The type to which the node will be casted.
     ///
-    /// - Throws: An error of type `c.InvalidTypeError` if the node cannot be casted to the specified type.
+    /// - Throws: An error of type `InvalidTypeError` if the node cannot be casted to the specified type.
     ///
     /// - Returns: The node casted to the specified type.
     public func resolve<Node>(type: Node.Type = Node.self) throws -> Node {
         guard let node = node as? Node else {
-            throw c.InvalidTypeError(expectedType: Node.self, actualValue: self)
+            throw InvalidTypeError<Node, Self>(expectedType: Node.self, actualType: Self.self)
         }
 
         return node
@@ -97,7 +97,7 @@ extension PlanarNode {
     ///   - type: The type to which the node will be casted.
     ///   - usage: A closure that takes a node of the specified type and does not return a value.
     ///   
-    /// - Throws: An error of type `c.InvalidTypeError` if the node cannot be casted to the specified type.
+    /// - Throws: An error of type `InvalidTypeError` if the node cannot be casted to the specified type.
     public func resolve<Node>(as type: Node.Type = Node.self, usage: (Node) -> Void) throws {
         usage(try resolve(type: type))
     }
